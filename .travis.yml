@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 1.0.1
+install:
+ - dotnet restore
+ - npm install
+script:
+ - gulp
+ - dotnet build
