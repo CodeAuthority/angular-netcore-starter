@@ -1,5 +1,5 @@
 {
-  "name": "angular2-core-starter",
+  "name": "angular-netcore-starter",
   "version": "1.0.0",
   "scripts": {
     "start": "gulp build && gulp watch"
