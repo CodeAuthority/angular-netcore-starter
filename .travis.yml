@@ -1,6 +1,6 @@
 branches:
   only:
-  - master
+   - master
 language: csharp
 sudo: required
 dist: trusty
