@@ -1,5 +1,5 @@
 # angular2-core-starter
-
+![travisci](https://travis-ci.org/CodeAuthority/angular-netcore-starter.svg?branch=defaul://travis-ci.org/CodeAuthority/angular-netcore-starter.svg?branch=master)
 ## Running the project
 In order to run this project you will first need to install all dependencies. This can be accomplished by running these commands:
 * dotnet restore
