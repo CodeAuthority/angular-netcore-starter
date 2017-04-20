@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ev
 dotnet restore
-npm install
+yarn install
 gulp
 dotnet build -c Release
