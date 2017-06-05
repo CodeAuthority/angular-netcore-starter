@@ -20,4 +20,8 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routedComponents = [HomeComponent];
+export const routedComponents = [
+    HomeComponent,
+    AboutComponent,
+    ContactFormComponent
+];

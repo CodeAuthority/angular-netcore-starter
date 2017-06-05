@@ -32,9 +32,4 @@ import { ContactFormComponent }               from './contact-form.component';
     providers: [],
     bootstrap: [ AppComponent ]
 })
-export class AppModule { 
-    /* for testing only */
-    constructor(router: Router){
-        console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
-    }
-}
+export class AppModule { }

@@ -10,26 +10,7 @@ namespace angular2_core_starter.Controllers
     {
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View();
+            return File("~/dist/index.html", "text/html");
         }
     }
 }

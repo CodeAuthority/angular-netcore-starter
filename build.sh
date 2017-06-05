@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ev
 dotnet restore
+cd NgApp
 npm install
-gulp
+ng build
+cd ..
 dotnet build -c Release
